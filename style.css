@@ -57,15 +57,15 @@ ul {
 }
 
 .sign-up {
-  border: 3px solid #3882f6;
   border-radius: 9px;
-  padding: 3px 36px;
+  padding: 6px 32px;
   font-size: 18px;
   font-weight: 700;
+  background-color: #3882f6;
 }
 
 .hero .sign-up {
-  background-color: #3882f6;
+  border: 3px solid #3882f6;
   color: #f9faf8;
 }
 
@@ -135,4 +135,34 @@ ul {
   text-align: end;
   font-size: 28px;
   font-weight: 800;
+}
+
+.register {
+  margin: 120px 240px;
+  background-color: #3882f6;
+  padding: 54px 140px;
+  color: #f9faf8;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register .text .main {
+  font-size: 32px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.register .text .secondary {
+  font-size: 20px;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+.register .text {
+  flex: 1;
+}
+.register .sign-up {
+  border: 2px solid #e5e7eb;
+  color: #e5e7eb;
+  align-self: center;
 }
