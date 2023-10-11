@@ -118,3 +118,21 @@ ul {
 .info-card .text {
   color: #5b5b5c;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 320px;
+}
+
+.quote .text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote .owner {
+  text-align: end;
+  font-size: 28px;
+  font-weight: 800;
+}
