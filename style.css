@@ -16,14 +16,17 @@ body {
 
 .header {
   background-color: #1f2937;
+  padding: 16px 240px;
+}
+
+.navigation {
   color: #f9faf8;
   display: flex;
   justify-content: space-between;
-  padding: 16px 240px;
   align-items: center;
 }
 
-.header .logo {
+.navigation .logo {
   font-size: 24px;
   font-weight: 700;
 }
@@ -38,10 +41,9 @@ ul {
 }
 
 .hero {
-  background-color: #1f2937;
   display: flex;
   color: #f9faf8;
-  padding: 100px 240px;
+  margin: 140px 0;
   justify-content: space-between;
 }
 
